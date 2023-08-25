@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  width: 380px;
+  height: 380px;
+  border: 1px solid black;
+  background-color: rgb(223, 202, 109);
+}
+
+.row, .col {
+  border: 1px solid black;
+  height: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 20px
+}
+
+.wall {
+  background-color: rgb(59, 20, 5)
+}
+
+.main-square {
+  background-color: blue;
+}
+.marked {
+  border: 5px solid aqua;
+}
+
+.piece {
+  width:100%;
+  height:100%;
+}
+
+.player_one_piece {
+  background-color:lightblue;
+  border-radius: 50%;
+}
+
+.player_two_piece {
+  background-color:yellow;
+  border-radius: 50%;
+}
